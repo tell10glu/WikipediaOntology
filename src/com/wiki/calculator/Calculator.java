@@ -1,9 +1,8 @@
 package com.wiki.calculator;
 
-public class Calculator {
+import com.wiki.pages.Page;
 
-	private Calculator(){
-		
-	}
+public interface Calculator {
+	float calculate(Page p1,Page p2);
 	
 }
