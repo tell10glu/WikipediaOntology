@@ -1,5 +1,7 @@
 package com.wiki.pages;
 
+import java.util.Arrays;
+
 public class Page {
 	protected String name;
 	protected String content;
@@ -22,5 +24,11 @@ public class Page {
 	public Link[] getLinks() {
 		return links;
 	}
+	@Override
+	public String toString() {
+		return "Page [name=" + name + ", content=" + content + ", links=" + Arrays.toString(links) + ", url=" + url
+				+ "]";
+	}
+	
 	
 }

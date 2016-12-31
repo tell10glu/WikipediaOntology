@@ -29,4 +29,9 @@ public class Link {
 	public Link(){
 		
 	}
+	@Override
+	public String toString() {
+		return "Link [href=" + href + ", text=" + text +"]";
+	}
+	
 }
